@@ -11,6 +11,7 @@ function totalTime(log) {
   return log.reduce((sum, session) => sum + session.minutes, 0); //return the sum of each session.minutes with reduce
   //high-order function is used here by returning reduce()
 }
+//Improvement Suggestion: add an optional argument to filter by mood or hobby
 
 //print out all unique hobbies
 function uniqueHobbies(log) {
